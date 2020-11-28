@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90e28537663ce409196230287a792fc4, type: 3}
+  m_Name: Settler
+  m_EditorClassIdentifier: 
+  maxHealth: 1
+  expandTerritoryRange: 0
+  allowedTiles: 010000000200000003000000
+  defaultBehavior: Settler
+  defaultTags:
+  - settler
+  animations:
+    dict:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 1
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 1
+      _keyValues:
+      - Default
+      - Move
+      _keys:
+      - Default
+      - Move
+      _values:
+      - frames:
+        - {fileID: 1757776262717163670, guid: 7b8beaf3e523c478cac80401a0150bdb, type: 3}
+        fps: 0
+        looping: 0
+      - frames:
+        - {fileID: 3606008699692657469, guid: 7b8beaf3e523c478cac80401a0150bdb, type: 3}
+        - {fileID: -8756733531388117390, guid: 7b8beaf3e523c478cac80401a0150bdb, type: 3}
+        - {fileID: 2825641549689670234, guid: 7b8beaf3e523c478cac80401a0150bdb, type: 3}
+        - {fileID: 1757776262717163670, guid: 7b8beaf3e523c478cac80401a0150bdb, type: 3}
+        fps: 10
+        looping: 0
+  immobile: 0
+  spriteOffset: 0.3
+  infoPanelData: {fileID: 0}
